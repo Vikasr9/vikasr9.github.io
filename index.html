@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Professional profile of Vikas Rathore, Training Officer associated with COPA at Government ITI Torla, Raipur, Chhattisgarh.">
+  <meta name="description" content="Official profile of Vikas Rathore, Training Officer (COPA) at Government ITI Torla, Raipur, Chhattisgarh. Electrical Engineering Diploma, CITS (CSA), NIELIT certified, and Software/App Developer.">
   <meta name="author" content="Vikas Rathore">
-  <title>Vikas Rathore | COPA Training | ITI Torla</title>
-  <meta property="og:title" content="Vikas Rathore - COPA Training">
-  <meta property="og:description" content="Professional profile and educational resources related to COPA training at Government ITI Torla, Raipur.">
+  <title>Vikas Rathore | Training Officer (COPA) &amp; Developer | Govt. ITI Torla</title>
+  <meta property="og:title" content="Vikas Rathore - Training Officer (COPA) &amp; Developer">
+  <meta property="og:description" content="Professional profile, qualifications, industrial training, technical skills, and gallery of Vikas Rathore at Government ITI Torla, Raipur.">
   <link rel="canonical" href="https://vikasr9.github.io/">
 
   <script type="application/ld+json">
@@ -18,6 +17,7 @@
     "mainEntity": {
       "@type": "Person",
       "name": "Vikas Rathore",
+      "image": "https://vikasr9.github.io/profile.jpg",
       "jobTitle": "Training Officer - COPA",
       "worksFor": {
         "@type": "EducationalOrganization",
@@ -29,6 +29,14 @@
           "addressCountry": "IN"
         }
       },
+      "alumniOf": [
+        "JK Institute of Engineering, Bilaspur",
+        "NSTI (R) Hyderabad",
+        "NIELIT Hyderabad"
+      ],
+      "knowsAbout": [
+        "HTML", "CSS", "JavaScript", "PHP", "Python", "C", "C++", "R Programming", "App Development", "Electrical Engineering", "COPA"
+      ],
       "url": "https://vikasr9.github.io/",
       "sameAs": [
         "https://github.com/Vikasr9",
@@ -42,44 +50,133 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Arial, sans-serif;
       color: #172033;
       background: #f4f7fb;
-      line-height: 1.7;
+      line-height: 1.65;
     }
     header {
-      background: #102b50;
+      background: linear-gradient(135deg, #102b50 0%, #164e8a 100%);
       color: white;
-      padding: 58px 20px;
+      padding: 48px 20px;
       text-align: center;
     }
-    header h1 { font-size: clamp(30px, 5vw, 48px); margin: 0; }
-    header p { margin: 8px 0; }
-    .tag { color: #c9ddff; }
-    main { max-width: 900px; margin: 28px auto; padding: 0 18px; }
+    .profile-pic {
+      width: 145px;
+      height: 145px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+      margin-bottom: 14px;
+      background: #1c3d6e;
+    }
+    header h1 { font-size: clamp(28px, 5vw, 44px); margin: 0; }
+    header p { margin: 6px 0; }
+    .tag { color: #c9ddff; font-size: 16px; }
+    main { max-width: 940px; margin: 28px auto; padding: 0 18px; }
     section {
       background: white;
-      padding: 24px;
-      margin-bottom: 18px;
+      padding: 24px 26px;
+      margin-bottom: 20px;
       border-radius: 14px;
-      box-shadow: 0 4px 18px #152b4610;
+      box-shadow: 0 4px 18px rgba(21, 43, 70, 0.06);
     }
-    h2 { color: #163e70; margin-top: 0; }
-    a { color: #075bb5; }
+    h2 {
+      color: #163e70;
+      margin-top: 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8eef6;
+      font-size: 21px;
+    }
+    .item {
+      margin-bottom: 16px;
+      padding-left: 14px;
+      border-left: 3px solid #164e8a;
+    }
+    .item:last-child { margin-bottom: 0; }
+    .item h3 { margin: 0 0 4px 0; font-size: 17px; color: #102b50; }
+    .item p { margin: 0; color: #3b4859; font-size: 15px; }
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .badge {
+      background: #eef4fc;
+      color: #102b50;
+      border: 1px solid #cfe0f5;
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .cert-badge {
+      background: #f0fdf4;
+      color: #14532d;
+      border: 1px solid #bbf7d0;
+    }
+    /* Photo Gallery Grid */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .gallery-card {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      background: #f8fafc;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery-card img:hover {
+      transform: scale(1.04);
+    }
+    /* Lightbox Modal for Full Image View */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .lightbox img {
+      max-width: 95%;
+      max-height: 90vh;
+      border-radius: 8px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
     .links { display: flex; flex-wrap: wrap; gap: 12px; }
     .button {
       display: inline-block;
       background: #164e8a;
       color: white;
-      padding: 11px 16px;
+      padding: 11px 18px;
       border-radius: 8px;
       text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
     }
-    footer { text-align: center; padding: 25px; color: #536174; }
+    .button:hover { background: #0f3866; }
+    footer { text-align: center; padding: 25px; color: #536174; font-size: 14px; }
   </style>
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Vikas Rathore" class="profile-pic" onclick="openLightbox(this.src)">
     <h1>Vikas Rathore</h1>
     <p><strong>Training Officer – COPA</strong></p>
     <p class="tag">Government ITI Torla, Raipur, Chhattisgarh</p>
@@ -89,33 +186,82 @@
     <section>
       <h2>About Me</h2>
       <p>
-        Welcome to my professional profile. I am associated with
-        COPA (Computer Operator and Programming Assistant) training
-        at Government ITI Torla, Raipur, Chhattisgarh.
-      </p>
-      <p>
-        This website shares professional information and educational
-        resources related to computer education and vocational training.
+        Welcome to my official profile. I am currently serving as a <strong>Training Officer (COPA)</strong> at <strong>Government ITI Torla, Raipur, Chhattisgarh</strong>. With a multidisciplinary background in Electrical Engineering, Computer Software Applications, and multi-language programming, I focus on practical technical training, software/app development, and digital skill empowerment.
       </p>
     </section>
 
     <section>
-      <h2>Professional Profile</h2>
-      <p><strong>Name:</strong> Vikas Rathore</p>
-      <p><strong>Designation:</strong> Training Officer – COPA</p>
-      <p><strong>Institute:</strong> Government ITI Torla</p>
-      <p><strong>Location:</strong> Raipur, Chhattisgarh, India</p>
-      <p><strong>Trade:</strong> Computer Operator and Programming Assistant (COPA)</p>
+      <h2>Current Role &amp; Industrial Experience</h2>
+      <div class="item">
+        <h3>Training Officer – COPA (Present)</h3>
+        <p>Government ITI Torla, Raipur, Chhattisgarh | Trade: Computer Operator and Programming Assistant</p>
+      </div>
+      <div class="item">
+        <h3>1 Year Diploma Apprenticeship Trainee (Electrical)</h3>
+        <p>National Thermal Power Corporation Ltd. (NTPC – 2600 MW), Korba, Chhattisgarh</p>
+      </div>
+      <div class="item">
+        <h3>15 Days Vocational Training</h3>
+        <p>132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba, Chhattisgarh</p>
+      </div>
     </section>
 
     <section>
-      <h2>Educational Topics</h2>
-      <ul>
-        <li>Computer Fundamentals</li>
-        <li>MS Office and Digital Skills</li>
-        <li>C Programming and Computer Applications</li>
-        <li>Typing and ITI COPA Learning Resources</li>
-      </ul>
+      <h2>Education &amp; Technical Qualifications</h2>
+      <div class="item">
+        <h3>CITS (Craft Instructor Training Scheme) – CSA</h3>
+        <p>Computer Software Applications | NSTI (R), Hyderabad</p>
+      </div>
+      <div class="item">
+        <h3>ITI – COPA (NCVT)</h3>
+        <p>Computer Operator and Programming Assistant | Odisha</p>
+      </div>
+      <div class="item">
+        <h3>Diploma in Electrical Engineering</h3>
+        <p>JK Institute of Engineering, Bilaspur, Chhattisgarh</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>NIELIT Certifications (NIELIT Hyderabad)</h2>
+      <div class="badge-container">
+        <span class="badge cert-badge">NIELIT 'O' Level</span>
+        <span class="badge cert-badge">CCC+ (Course on Computer Concepts Plus)</span>
+        <span class="badge cert-badge">ECC (Expert Computer Course)</span>
+        <span class="badge cert-badge">CCC (Course on Computer Concepts)</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Programming Languages &amp; Development Skills</h2>
+      <div class="badge-container">
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS3</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">PHP</span>
+        <span class="badge">Python</span>
+        <span class="badge">C</span>
+        <span class="badge">C++</span>
+        <span class="badge">R Programming</span>
+        <span class="badge">App Development</span>
+        <span class="badge">MS Office &amp; Digital Skills</span>
+        <span class="badge">Hindi &amp; English Typing</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Training &amp; Activity Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-card"><img src="gallery1.jpg" alt="ITI Training Session 1" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery2.jpg" alt="ITI Training Session 2" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery3.jpg" alt="ITI Training Session 3" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery4.jpg" alt="ITI Training Session 4" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery5.jpg" alt="ITI Training Session 5" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery6.jpg" alt="ITI Training Session 6" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery7.jpg" alt="ITI Training Session 7" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery8.jpg" alt="ITI Training Session 8" onclick="openLightbox(this.src)"></div>
+        <div class="gallery-card"><img src="gallery9.jpg" alt="ITI Training Session 9" onclick="openLightbox(this.src)"></div>
+      </div>
     </section>
 
     <section>
@@ -135,9 +281,21 @@
     </section>
   </main>
 
+  <!-- Full-screen image viewer -->
+  <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+    <img id="lightbox-img" src="" alt="Full View">
+  </div>
+
   <footer>
-    © <span id="year">2026</span> Vikas Rathore |
-    Professional and Educational Profile
+    © <span id="year">2026</span> Vikas Rathore | Government ITI Torla, Raipur
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function openLightbox(src) {
+      document.getElementById("lightbox-img").src = src;
+      document.getElementById("lightbox").style.display = "flex";
+    }
+  </script>
 </body>
 </html>
