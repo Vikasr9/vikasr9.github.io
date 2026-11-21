@@ -1,0 +1,18 @@
+# Vikas Rathore - Training Officer (COPA), Government ITI Torla, Raipur
+
+## Summary
+Vikas Rathore is a Training Officer for the COPA (Computer Operator and Programming Assistant) trade at Government ITI Torla, Raipur, Chhattisgarh, India.
+
+## Education & Qualifications
+- CITS (Craft Instructor Training Scheme) in CSA (Computer Software Applications) from NSTI (R), Hyderabad
+- ITI in COPA (NCVT) from Odisha
+- Diploma in Electrical Engineering from JK Institute of Engineering, Bilaspur, Chhattisgarh
+- NIELIT Hyderabad Certifications: O Level, CCC+, ECC, and CCC
+
+## Industrial Experience
+- 1 Year Diploma Apprenticeship Trainee (Electrical) at NTPC Ltd. (2600 MW), Korba, Chhattisgarh
+- 15 Days Vocational Training at 132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba, Chhattisgarh
+
+## Technical & Programming Skills
+- Languages & Development: HTML, CSS, JavaScript, PHP, Python, C, C++, R Programming, App Development
+- Official Links: https://vikasr9.github.io/ | https://github.com/Vikasr9 | https://cgiti.cg.gov.in/iti/torla/faculty
