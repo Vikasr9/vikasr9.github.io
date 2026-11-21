@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official profile of Vikas Rathore, Training Officer (COPA) at Government ITI Torla, Raipur, Chhattisgarh. 1st Rank Topper in Diploma Electrical Engineering & ITI COPA (NCVT Odisha), CITS (CSA), NIELIT certified, and Software/App Developer.">
+  <meta name="description" content="Official professional profile of Vikas Rathore, Training Officer (COPA) at Government ITI Torla, Raipur, Chhattisgarh. 1st Rank Topper in Diploma Electrical Engineering & ITI COPA (NCVT Odisha), CITS (CSA), NIELIT certified, Android/Web App Developer, and ITI COPA Study Material.">
   <meta name="author" content="Vikas Rathore">
-  <title>Vikas Rathore | Training Officer (COPA) &amp; Developer | Govt. ITI Torla</title>
-  <meta property="og:title" content="Vikas Rathore - Training Officer (COPA) &amp; Developer">
-  <meta property="og:description" content="Professional profile, 1st Rank Topper academic achievements, industrial training, technical skills, and gallery of Vikas Rathore at Government ITI Torla, Raipur.">
+  <title>Vikas Rathore | Training Officer (COPA) &amp; App Developer | Govt. ITI Torla</title>
+  <meta property="og:title" content="Vikas Rathore — Training Officer (COPA) &amp; App Developer">
+  <meta property="og:description" content="Official profile, 1st Rank Topper academic achievements, NTPC & SECL industrial training, software projects, ITI COPA notes library, and gallery of Vikas Rathore at Government ITI Torla, Raipur.">
   <meta property="og:image" content="https://vikasr9.github.io/profile.jpg">
   <link rel="canonical" href="https://vikasr9.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -20,6 +23,7 @@
         "mainEntity": {
           "@type": "Person",
           "name": "Vikas Rathore",
+          "email": "mailto:rvikas324@gmail.com",
           "image": "https://vikasr9.github.io/profile.jpg",
           "jobTitle": "Training Officer - COPA",
           "worksFor": {
@@ -42,7 +46,7 @@
             "1st Rank Topper in ITI COPA (NCVT) - Odisha"
           ],
           "knowsAbout": [
-            "HTML", "CSS", "JavaScript", "PHP", "Python", "C", "C++", "R Programming", "App Development", "Electrical Engineering", "COPA"
+            "Android App Development", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "Python", "Java", "C", "C++", "R Programming", "XAMPP", "REST API Integration", "Network Troubleshooting", "MS Office", "Google Workspace", "Electrical Engineering", "COPA"
           ],
           "url": "https://vikasr9.github.io/",
           "sameAs": [
@@ -65,6 +69,14 @@
           },
           {
             "@type": "Question",
+            "name": "Where can ITI COPA students download Vikas Rathore's handwritten notes, syllabus, and question papers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Students can access and download all ITI COPA handwritten notes, unit-wise PDFs, merged complete notes (Units 1 to 18), NCVT/SCVT question paper sets, syllabus, practical files, and coding tutorials directly from the ITI Notes section on https://vikasr9.github.io/#notes."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "What are the educational qualifications and topper achievements of Vikas Rathore?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -73,18 +85,18 @@
           },
           {
             "@type": "Question",
-            "name": "What industrial training and apprenticeship has Vikas Rathore completed?",
+            "name": "What software and mobile app projects has Vikas Rathore developed?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "He completed a 1-year Diploma Apprenticeship in Electrical Engineering at National Thermal Power Corporation Ltd. (NTPC - 2600 MW), Korba, Chhattisgarh, and 15 days of vocational training at the 132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba."
+              "text": "Vikas Rathore developed the ITI COPA Mobile Application (github.com/Vikasr9/NCVT-ITI-COPA), a responsive Android online exam portal with backend API support, and a Student Registration Form Web Application (github.com/Vikasr9/student-dbms) using HTML, CSS, JavaScript, PHP/MySQL (DBMS), and XAMPP."
             }
           },
           {
             "@type": "Question",
-            "name": "Which programming languages and technical skills does Vikas Rathore teach and practice?",
+            "name": "How can I contact Vikas Rathore?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Vikas Rathore has full working knowledge of HTML, CSS, JavaScript, PHP, Python, C, C++, R Programming, and Mobile/Web App Development, alongside ITI COPA practical training."
+              "text": "You can contact Vikas Rathore directly via his official email at rvikas324@gmail.com or through https://vikasr9.github.io/."
             }
           }
         ]
@@ -94,140 +106,617 @@
   </script>
 
   <style>
-    * { box-sizing: border-box; }
+    :root {
+      --primary: #0f294a;
+      --primary-light: #1e4b85;
+      --accent: #0284c7;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --gold-bg: #fef3c7;
+      --gold-text: #92400e;
+      --gold-border: #f59e0b;
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+
     body {
       margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      color: #172033;
-      background: #f4f7fb;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-main);
+      background: var(--bg);
       line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
     }
-    header {
-      background: linear-gradient(135deg, #102b50 0%, #164e8a 100%);
-      color: white;
-      padding: 48px 20px;
-      text-align: center;
+
+    /* Sticky Top Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand {
+      font-weight: 800;
+      font-size: 18px;
+      color: var(--primary);
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+    .brand span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 13.5px;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--primary); }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #0b1f3a 0%, #153e75 60%, #1d5296 100%);
+      color: #ffffff;
+      padding: 64px 20px 76px;
+    }
+    .hero-inner {
+      max-width: 1040px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .role-pill {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #e0f2fe;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      margin-bottom: 14px;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 48px);
+      font-weight: 800;
+      margin: 0 0 10px 0;
+      letter-spacing: -0.8px;
+      line-height: 1.15;
+    }
+    .hero-subtitle {
+      font-size: 17.5px;
+      color: #cbd5e1;
+      margin: 0 0 22px 0;
+      max-width: 610px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn-primary {
+      background: #ffffff;
+      color: var(--primary);
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-outline:hover { background: rgba(255, 255, 255, 0.2); }
+
+    .hero-photo-wrap {
+      display: flex;
+      justify-content: center;
     }
     .profile-pic {
-      width: 145px;
-      height: 145px;
-      border-radius: 50%;
+      width: 210px;
+      height: 210px;
+      border-radius: 22px;
       object-fit: cover;
-      border: 4px solid #ffffff;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-      margin-bottom: 14px;
-      background: #1c3d6e;
+      border: 4px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 18px 38px rgba(0, 0, 0, 0.35);
       cursor: pointer;
+      transition: transform 0.25s ease;
     }
-    header h1 { font-size: clamp(28px, 5vw, 44px); margin: 0; }
-    header p { margin: 6px 0; }
-    .tag { color: #c9ddff; font-size: 16px; }
-    main { max-width: 940px; margin: 28px auto; padding: 0 18px; }
+    .profile-pic:hover { transform: scale(1.03); }
+
+    /* Executive Highlights Strip */
+    .highlights-strip {
+      max-width: 1040px;
+      margin: -36px auto 28px;
+      padding: 0 20px;
+    }
+    .highlights-grid {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 24px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+    }
+    .stat-box {
+      border-right: 1px solid var(--border);
+      padding-right: 12px;
+    }
+    .stat-box:last-child { border-right: none; padding-right: 0; }
+    .stat-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 0 0 2px 0;
+    }
+    .stat-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* Main Layout */
+    main {
+      max-width: 1040px;
+      margin: 0 auto 40px;
+      padding: 0 20px;
+    }
     section {
-      background: white;
-      padding: 24px 26px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 30px 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 10px rgba(15, 23, 42, 0.03);
+    }
+    .section-header {
       margin-bottom: 20px;
-      border-radius: 14px;
-      box-shadow: 0 4px 18px rgba(21, 43, 70, 0.06);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    h2 {
-      color: #163e70;
-      margin-top: 0;
-      padding-bottom: 8px;
-      border-bottom: 2px solid #e8eef6;
-      font-size: 21px;
+    .section-header h2 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -0.3px;
     }
-    .item {
-      margin-bottom: 16px;
-      padding-left: 14px;
-      border-left: 3px solid #164e8a;
+    .section-header p {
+      margin: 4px 0 0 0;
+      font-size: 14px;
+      color: var(--text-muted);
     }
-    .item:last-child { margin-bottom: 0; }
-    .item h3 { margin: 0 0 4px 0; font-size: 17px; color: #102b50; }
-    .item p { margin: 0; color: #3b4859; font-size: 15px; }
-    .rank-badge {
+
+    /* Notes Library Grid */
+    .notes-banner {
+      background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);
+      border: 1px solid #bae6fd;
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .notes-banner h3 {
+      margin: 0 0 4px 0;
+      font-size: 17px;
+      color: var(--primary);
+    }
+    .notes-banner p {
+      margin: 0;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+      gap: 16px;
+    }
+    .note-card {
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 18px 20px;
+      background: #fcfdff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .note-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+    }
+    .note-badge {
       display: inline-block;
-      background: #fef3c7;
-      color: #92400e;
-      border: 1px solid #f59e0b;
-      padding: 2px 10px;
-      border-radius: 14px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      color: #0369a1;
+      background: #e0f2fe;
+      padding: 3px 9px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      width: fit-content;
+    }
+    .note-card h3 {
+      margin: 0 0 6px 0;
+      font-size: 16px;
+      color: var(--primary);
+    }
+    .note-card p {
+      margin: 0 0 14px 0;
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+    .note-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       font-size: 13px;
       font-weight: 700;
-      margin-left: 6px;
+      color: var(--primary);
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      width: fit-content;
+      transition: all 0.2s;
+    }
+    .note-btn:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .project-card {
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 22px;
+      background: #fcfdff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .project-tag {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+      background: #e0f2fe;
+      padding: 3px 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+    .project-card h3 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      color: var(--primary);
+    }
+    .project-card p {
+      margin: 0 0 14px 0;
+      font-size: 14.5px;
+      color: var(--text-muted);
+    }
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .tech-chip {
+      font-size: 12px;
+      font-weight: 600;
+      background: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      padding: 3px 9px;
+      border-radius: 6px;
+    }
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #ffffff;
+      background: var(--primary);
+      padding: 9px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      width: fit-content;
+      transition: background 0.2s;
+    }
+    .project-link:hover { background: var(--primary-light); }
+
+    /* Timeline / Experience & Education */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .timeline-card {
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary-light);
+      border-radius: 10px;
+      background: #fcfdff;
+    }
+    .timeline-card h3 {
+      margin: 0 0 4px 0;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .timeline-meta {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--primary-light);
+      margin: 0 0 6px 0;
+    }
+    .timeline-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .rank-badge {
+      display: inline-block;
+      background: var(--gold-bg);
+      color: var(--gold-text);
+      border: 1px solid var(--gold-border);
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-left: 8px;
       vertical-align: middle;
+    }
+
+    /* Categorized Skills & Certifications */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .skill-box {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      background: #f8fafc;
+    }
+    .skill-box h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 0 0 12px 0;
     }
     .badge-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 10px;
+      gap: 8px;
     }
     .badge {
-      background: #eef4fc;
-      color: #102b50;
-      border: 1px solid #cfe0f5;
-      padding: 7px 14px;
-      border-radius: 20px;
-      font-size: 14px;
+      background: #ffffff;
+      color: #1e293b;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 13px;
       font-weight: 600;
     }
     .cert-badge {
-      background: #f0fdf4;
-      color: #14532d;
-      border: 1px solid #bbf7d0;
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
     }
-    /* Photo Gallery Grid */
+
+    /* Gallery Grid */
     .gallery-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 14px;
-      margin-top: 14px;
     }
     .gallery-card {
       border-radius: 10px;
       overflow: hidden;
-      border: 1px solid #e2e8f0;
-      background: #f8fafc;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+      background: #f1f5f9;
+      aspect-ratio: 4 / 3;
     }
     .gallery-card img {
       width: 100%;
-      height: 210px;
+      height: 100%;
       object-fit: cover;
       display: block;
       transition: transform 0.3s ease;
       cursor: pointer;
     }
-    .gallery-card img:hover {
-      transform: scale(1.04);
-    }
-    /* FAQ Styling */
-    .faq-item {
-      border: 1px solid #e2e8f0;
+    .gallery-card img:hover { transform: scale(1.05); }
+
+    /* Accordion FAQ */
+    details.faq-item {
+      border: 1px solid var(--border);
       border-radius: 10px;
       padding: 14px 18px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       background: #f8fafc;
     }
-    .faq-item:last-child { margin-bottom: 0; }
-    .faq-item h3 {
-      margin: 0 0 6px 0;
-      font-size: 16px;
-      color: #102b50;
+    details.faq-item:last-child { margin-bottom: 0; }
+    details.faq-item summary {
+      font-weight: 600;
+      font-size: 15.5px;
+      color: var(--primary);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .faq-item p {
-      margin: 0;
-      color: #334155;
+    details.faq-item summary::-webkit-details-marker { display: none; }
+    details.faq-item summary::after {
+      content: '+';
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    details.faq-item[open] summary::after { content: '−'; }
+    details.faq-item p {
+      margin: 10px 0 0 0;
+      font-size: 14.5px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+
+    /* Contact Section */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 28px;
+    }
+    .contact-card {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .contact-detail { margin-bottom: 16px; }
+    .contact-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+    .contact-value {
       font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
     }
-    /* Lightbox Modal for Full Image View */
+    .contact-value a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact-value a:hover { text-decoration: underline; }
+
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .social-btn {
+      display: inline-block;
+      padding: 9px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #ffffff;
+      background: var(--primary);
+      transition: opacity 0.2s;
+    }
+    .social-btn:hover { opacity: 0.9; }
+    .social-insta { background: linear-gradient(45deg, #d6249f, #fd5949); }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 14px;
+      background: #ffffff;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
+    }
+    .submit-btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .submit-btn:hover { background: var(--primary-light); }
+
+    /* Lightbox */
     .lightbox {
       display: none;
       position: fixed;
       z-index: 999;
       inset: 0;
-      background: rgba(0, 0, 0, 0.85);
+      background: rgba(15, 23, 42, 0.9);
       justify-content: center;
       align-items: center;
       padding: 20px;
@@ -235,107 +724,366 @@
     .lightbox img {
       max-width: 95%;
       max-height: 90vh;
-      border-radius: 8px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
     }
-    .links { display: flex; flex-wrap: wrap; gap: 12px; }
-    .button {
-      display: inline-block;
-      background: #164e8a;
-      color: white;
-      padding: 11px 18px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.2s;
+
+    footer {
+      background: var(--primary);
+      color: #cbd5e1;
+      text-align: center;
+      padding: 26px 20px;
+      font-size: 14px;
     }
-    .button:hover { background: #0f3866; }
-    .insta-btn {
-      background: linear-gradient(45deg, #d6249f, #fd5949);
+    footer a { color: #ffffff; text-decoration: none; }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 820px) {
+      .hero-inner { grid-template-columns: 1fr; text-align: center; }
+      .hero-subtitle { margin-left: auto; margin-right: auto; }
+      .hero-actions { justify-content: center; }
+      .highlights-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-box:nth-child(2) { border-right: none; }
+      .projects-grid, .skills-grid, .contact-grid { grid-template-columns: 1fr; }
     }
-    .insta-btn:hover {
-      background: linear-gradient(45deg, #b81d87, #e04738);
+    @media (max-width: 500px) {
+      .highlights-grid { grid-template-columns: 1fr; }
+      .stat-box { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
+      .stat-box:last-child { border-bottom: none; padding-bottom: 0; }
+      section { padding: 22px 18px; }
     }
-    footer { text-align: center; padding: 25px; color: #536174; font-size: 14px; }
   </style>
 </head>
 <body>
-  <header>
-    <img src="profile.jpg" alt="Vikas Rathore Training Officer COPA Government ITI Torla Raipur" class="profile-pic" onclick="openLightbox(this.src)">
-    <h1>Vikas Rathore</h1>
-    <p><strong>Training Officer – COPA</strong></p>
-    <p class="tag">Government ITI Torla, Raipur, Chhattisgarh</p>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">Vikas <span>Rathore</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#notes">COPA Notes</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="role-pill">Training Officer – COPA • Government ITI Torla</span>
+        <h1>Vikas Rathore</h1>
+        <p class="hero-subtitle">
+          Technical Educator, Android &amp; Full-Stack Web Developer, and 2× 1st Rank Topper in Electrical Engineering &amp; Computer Applications — Raipur, Chhattisgarh.
+        </p>
+        <div class="hero-actions">
+          <a href="#notes" class="btn-primary">Download COPA Notes</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+          <a href="https://cgiti.cg.gov.in/iti/torla/faculty" target="_blank" rel="noopener noreferrer" class="btn-outline">Official ITI Faculty Page</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img src="profile.jpg" alt="Vikas Rathore Training Officer COPA Government ITI Torla Raipur" class="profile-pic" onclick="openLightbox(this.src)">
+      </div>
+    </div>
   </header>
 
+  <!-- Executive Highlights -->
+  <div class="highlights-strip">
+    <div class="highlights-grid">
+      <div class="stat-box">
+        <p class="stat-title">Govt. ITI Torla</p>
+        <p class="stat-desc">Training Officer (COPA), Raipur</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-title">2× 1st Rank Topper</p>
+        <p class="stat-desc">Diploma Electrical &amp; ITI COPA</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-title">NTPC &amp; SECL Trained</p>
+        <p class="stat-desc">2600MW Power Plant &amp; 132KV Sub.</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-title">ITI COPA Study Hub</p>
+        <p class="stat-desc">Notes, Syllabus, Papers &amp; Coding</p>
+      </div>
+    </div>
+  </div>
+
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        Welcome to my official profile. I am currently serving as a <strong>Training Officer (COPA)</strong> at <strong>Government ITI Torla, Raipur, Chhattisgarh</strong>. A <strong>1st Rank Topper</strong> in both Diploma in Electrical Engineering and ITI COPA (NCVT), I combine a strong engineering and computer software background with multi-language programming to deliver practical technical training and software/app development.
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-header">
+        <div>
+          <h2>Professional Summary</h2>
+          <p>Bridging core Electrical Engineering discipline with modern Software, Android App &amp; Vocational Training</p>
+        </div>
+      </div>
+      <p style="margin: 0; color: var(--text-muted);">
+        I am currently serving as a <strong>Training Officer for the COPA (Computer Operator and Programming Assistant)</strong> trade at <strong>Government ITI Torla, Raipur, Chhattisgarh</strong>. Having secured <strong>1st Rank Topper</strong> positions in both my Diploma in Electrical Engineering and ITI COPA (NCVT), alongside CITS (CSA) from NSTI Hyderabad and NIELIT 'O' Level credentials, I specialize in Android mobile app development, full-stack web applications, API integration, and hands-on technical skill instruction.
       </p>
     </section>
 
-    <section>
-      <h2>Current Role &amp; Industrial Experience</h2>
-      <div class="item">
-        <h3>Training Officer – COPA (Present)</h3>
-        <p>Government ITI Torla, Raipur, Chhattisgarh | Trade: Computer Operator and Programming Assistant</p>
+    <!-- ITI COPA Notes & Study Material Hub -->
+    <section id="notes">
+      <div class="section-header">
+        <div>
+          <h2>ITI COPA Study Material &amp; Notes Library</h2>
+          <p>Free open-access Google Drive resources curated by Vikas Rathore for ITI COPA trainees</p>
+        </div>
+        <a href="https://drive.google.com/drive/folders/15t_sgY7DKCLKBH5XJsHO8P_AWPGilfx-?usp=drive_link" target="_blank" rel="noopener noreferrer" class="project-link" style="background: var(--accent);">Open Complete Drive Folder ↗</a>
       </div>
-      <div class="item">
-        <h3>1 Year Diploma Apprenticeship Trainee (Electrical)</h3>
-        <p>National Thermal Power Corporation Ltd. (NTPC – 2600 MW), Korba, Chhattisgarh</p>
+
+      <div class="notes-banner">
+        <div>
+          <h3>📚 Master Folder: ITI NOTES BY VIKAS RATHORE</h3>
+          <p>Includes Complete Merged Notes (Units 1–18), Handwritten Notes, Unit-Wise PDFs, NCVT/SCVT Question Papers, Syllabus, Practicals &amp; Coding Guides.</p>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1bGtKClhvSdMcHPBiCVliD-1gjN5Y1eFg?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Browse All Folders →</a>
       </div>
-      <div class="item">
-        <h3>15 Days Vocational Training</h3>
-        <p>132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba, Chhattisgarh</p>
+
+      <div class="notes-grid">
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Complete Book PDF</span>
+            <h3>Complete Notes (Units 1 to 18 Merge)</h3>
+            <p>All 18 COPA Trade Theory units merged into comprehensive study files for complete exam revision.</p>
+          </div>
+          <a href="https://drive.google.com/drive/folders/11wLz-5H6DHFZfapxkITx-xAduz-l-Krk?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Open Merged Notes ↗</a>
+        </div>
+
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Classroom Handwritten</span>
+            <h3>Hand Written Notes (Trade Theory)</h3>
+            <p>Easy-to-understand handwritten classroom notes prepared specifically for Hindi &amp; English medium ITI students.</p>
+          </div>
+          <a href="https://drive.google.com/drive/folders/13IQJkQMUB8XhDXiwYu9AspHu2wZ8IrdP?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Open Handwritten Notes ↗</a>
+        </div>
+
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Unit-Wise PDFs</span>
+            <h3>PDF Unit Notes (All Topics)</h3>
+            <p>Topic-by-topic structured PDF notes covering Computer Fundamentals, OS, MS Office, Networking, and Databases.</p>
+          </div>
+          <a href="https://drive.google.com/drive/folders/1v6_lvOxdIcEEALS-5bzzYItBPSv1zPC_?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Open Unit PDFs ↗</a>
+        </div>
+
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Previous Exam Sets</span>
+            <h3>NCVT / SCVT Question Papers Sets</h3>
+            <p>Previous year CBT question paper sets and MCQ practice banks for NCVT and SCVT board exam preparation.</p>
+          </div>
+          <a href="https://drive.google.com/drive/folders/1gMZSqrNB3INxmCocEBiqFFES3Kazo4kY?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Open Question Papers ↗</a>
+        </div>
+
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Curriculum</span>
+            <h3>Syllabus (Trade Theory &amp; ES)</h3>
+            <p>Official NCVT/SCVT COPA Trade Theory and Employability Skills (ES) curriculum and weekly training structure.</p>
+          </div>
+          <a href="https://drive.google.com/drive/folders/111T7lZlL5rpHWXEM7ourxNHxlsVwLSIE?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Open Syllabus Folder ↗</a>
+        </div>
+
+        <div class="note-card">
+          <div>
+            <span class="note-badge">Programming &amp; Web</span>
+            <h3>Coding Notes &amp; Practical Files</h3>
+            <p>HTML, CSS, JavaScript, Python, VBA, and DBMS coding notes alongside lab practical records (PRC 1–22 &amp; ES PRC 1–161).</p>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <a href="https://drive.google.com/drive/folders/1HVsz2snd9JAJfd2T0TWH_72FOs22LQvj?usp=drive_link" target="_blank" rel="noopener noreferrer" class="note-btn">Coding Folder ↗</a>
+            <a href="https://drive.google.com/file/d/1Vw_MnpIpA8iLbuSgrkf2ZFYHHTnrcnV6/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="note-btn">PRC 1–22 ↗</a>
+            <a href="https://drive.google.com/file/d/1pV-D_FlmzkIBnlS4pXH96OQCAkUzsm6w/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="note-btn">ES PRC 1–161 ↗</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Education &amp; Technical Qualifications</h2>
-      <div class="item">
-        <h3>CITS (Craft Instructor Training Scheme) – CSA</h3>
-        <p>Computer Software Applications | NSTI (R), Hyderabad</p>
+    <!-- Featured Projects Section -->
+    <section id="projects">
+      <div class="section-header">
+        <div>
+          <h2>Featured Software &amp; App Projects</h2>
+          <p>Open-source repositories available on GitHub (<a href="https://github.com/Vikasr9" target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: none; font-weight: 600;">github.com/Vikasr9</a>)</p>
+        </div>
       </div>
-      <div class="item">
-        <h3>ITI – COPA (NCVT) <span class="rank-badge">★ 1st Rank Topper</span></h3>
-        <p>Computer Operator and Programming Assistant | Odisha</p>
-      </div>
-      <div class="item">
-        <h3>Diploma in Electrical Engineering <span class="rank-badge">★ 1st Rank Topper</span></h3>
-        <p>JK Institute of Engineering, Bilaspur, Chhattisgarh</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div>
+            <span class="project-tag">Android Mobile Application</span>
+            <h3>ITI COPA Mobile Application</h3>
+            <p>
+              Designed and developed a responsive Android mobile application serving as an online exam portal with full backend support, creating an engaging and interactive assessment experience for ITI COPA trainees.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-chip">Android App</span>
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">REST API</span>
+              <span class="tech-chip">W3 (PHP / MySQL)</span>
+            </div>
+          </div>
+          <a href="https://github.com/Vikasr9/NCVT-ITI-COPA" target="_blank" rel="noopener noreferrer" class="project-link">View Repository (NCVT-ITI-COPA) →</a>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <span class="project-tag">Full-Stack Web Application</span>
+            <h3>Student Registration Form</h3>
+            <p>
+              Designed and developed a responsive Student Registration Form web application with structured database storage and local server integration to securely collect, validate, and manage essential student records.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">DBMS / MySQL</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">XAMPP</span>
+            </div>
+          </div>
+          <a href="https://github.com/Vikasr9/student-dbms" target="_blank" rel="noopener noreferrer" class="project-link">View Repository (student-dbms) →</a>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>NIELIT Certifications (NIELIT Hyderabad)</h2>
-      <div class="badge-container">
-        <span class="badge cert-badge">NIELIT 'O' Level</span>
-        <span class="badge cert-badge">CCC+ (Course on Computer Concepts Plus)</span>
-        <span class="badge cert-badge">ECC (Expert Computer Course)</span>
-        <span class="badge cert-badge">CCC (Course on Computer Concepts)</span>
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="section-header">
+        <div>
+          <h2>Role &amp; Industrial Experience</h2>
+          <p>Teaching leadership and core power-sector engineering exposure</p>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-card">
+          <h3>Training Officer – COPA</h3>
+          <p class="timeline-meta">Government ITI Torla, Raipur, Chhattisgarh • Present</p>
+          <p class="timeline-desc">Conducting classroom theory, computer lab practicals, online mock tests, programming workshops, and typing/digital literacy training for NCVT/SCVT COPA trainees.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>1 Year Diploma Apprenticeship Trainee (Electrical)</h3>
+          <p class="timeline-meta">National Thermal Power Corporation Ltd. (NTPC – 2600 MW), Korba, Chhattisgarh</p>
+          <p class="timeline-desc">Completed one year of industrial engineering apprenticeship in electrical operations and maintenance at NTPC Korba Super Thermal Power Station.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>15 Days Vocational Training</h3>
+          <p class="timeline-meta">132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba, Chhattisgarh</p>
+          <p class="timeline-desc">Hands-on substation exposure covering high-voltage power distribution, protection systems, and grid operations.</p>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Programming Languages &amp; Development Skills</h2>
-      <div class="badge-container">
-        <span class="badge">HTML5</span>
-        <span class="badge">CSS3</span>
-        <span class="badge">JavaScript</span>
-        <span class="badge">PHP</span>
-        <span class="badge">Python</span>
-        <span class="badge">C</span>
-        <span class="badge">C++</span>
-        <span class="badge">R Programming</span>
-        <span class="badge">App Development</span>
-        <span class="badge">MS Office &amp; Digital Skills</span>
-        <span class="badge">Hindi &amp; English Typing</span>
+    <!-- Education Section -->
+    <section id="education">
+      <div class="section-header">
+        <div>
+          <h2>Education &amp; Academic Distinctions</h2>
+          <p>Recognized academic excellence across engineering and computer science</p>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-card">
+          <h3>CITS (Craft Instructor Training Scheme) — CSA</h3>
+          <p class="timeline-meta">National Skill Training Institute (NSTI-R), Hyderabad</p>
+          <p class="timeline-desc">Specialized instructor training in Computer Software Applications (CSA) and modern vocational pedagogy.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>ITI – COPA (NCVT) <span class="rank-badge">★ 1st Rank Topper</span></h3>
+          <p class="timeline-meta">Odisha</p>
+          <p class="timeline-desc">Graduated as 1st Rank Topper in Computer Operator and Programming Assistant.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>Diploma in Electrical Engineering <span class="rank-badge">★ 1st Rank Topper</span></h3>
+          <p class="timeline-meta">JK Institute of Engineering, Bilaspur, Chhattisgarh</p>
+          <p class="timeline-desc">Secured 1st Rank Topper distinction in Electrical Engineering.</p>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Training &amp; Activity Gallery</h2>
+    <!-- Skills & Certifications -->
+    <section id="skills">
+      <div class="section-header">
+        <div>
+          <h2>Computer &amp; Technical Skills</h2>
+          <p>Full-stack software development, operating systems, productivity suites, and NIELIT certifications</p>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Frontend &amp; Mobile App Development</h3>
+          <div class="badge-container">
+            <span class="badge">Android App Development</span>
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Cross-Platform API Integration</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Backend, Languages &amp; Databases</h3>
+          <div class="badge-container">
+            <span class="badge">Python</span>
+            <span class="badge">Java</span>
+            <span class="badge">W3 (PHP / MySQL)</span>
+            <span class="badge">XAMPP &amp; DBMS</span>
+            <span class="badge">C</span>
+            <span class="badge">C++</span>
+            <span class="badge">R Programming</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Operating Systems &amp; IT Operations</h3>
+          <div class="badge-container">
+            <span class="badge">Windows OS (XP, 7, 8, 10, 11)</span>
+            <span class="badge">Basic Network Troubleshooting</span>
+            <span class="badge">Internet Navigation</span>
+            <span class="badge">English &amp; Hindi Typing</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3>Office Suites &amp; Cloud Productivity</h3>
+          <div class="badge-container">
+            <span class="badge">MS Office (Word, Excel, PowerPoint)</span>
+            <span class="badge">Google Workspace (Docs, Sheets, Slides, Gmail, Colab)</span>
+          </div>
+        </div>
+
+        <div class="skill-box" style="grid-column: 1 / -1;">
+          <h3>NIELIT Certifications (NIELIT Hyderabad)</h3>
+          <div class="badge-container">
+            <span class="badge cert-badge">NIELIT 'O' Level</span>
+            <span class="badge cert-badge">CCC+ (Course on Computer Concepts Plus)</span>
+            <span class="badge cert-badge">ECC (Expert Computer Course)</span>
+            <span class="badge cert-badge">CCC (Course on Computer Concepts)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="section-header">
+        <div>
+          <h2>Training &amp; Institutional Gallery</h2>
+          <p>Click any photograph to view in full screen</p>
+        </div>
+      </div>
       <div class="gallery-grid">
         <div class="gallery-card"><img src="gallery1.jpg" alt="Vikas Rathore ITI COPA Training Session 1" onclick="openLightbox(this.src)"></div>
         <div class="gallery-card"><img src="gallery2.jpg" alt="Vikas Rathore ITI COPA Training Session 2" onclick="openLightbox(this.src)"></div>
@@ -350,54 +1098,88 @@
       </div>
     </section>
 
-    <section>
-      <h2>Frequently Asked Questions (FAQ)</h2>
-      <div class="faq-item">
-        <h3>Who is Vikas Rathore (ITI)?</h3>
+    <!-- FAQ Section -->
+    <section id="faq">
+      <div class="section-header">
+        <div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick facts about academic credentials, notes library, projects, and contact details</p>
+        </div>
+      </div>
+      <details class="faq-item" open>
+        <summary>Who is Vikas Rathore (ITI)?</summary>
         <p>Vikas Rathore is a Training Officer for the COPA (Computer Operator and Programming Assistant) trade at Government ITI Torla, Raipur, Chhattisgarh.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What are the educational qualifications and topper achievements of Vikas Rathore?</h3>
+      </details>
+      <details class="faq-item">
+        <summary>Where can ITI COPA students access Vikas Rathore's notes, syllabus, and question papers?</summary>
+        <p>Students can freely access all handwritten notes, complete merged unit PDFs (Units 1 to 18), NCVT/SCVT question paper sets, syllabus, practical files, and coding tutorials in the <a href="#notes">ITI COPA Study Material &amp; Notes Library</a> section on this website.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What are the educational qualifications and topper achievements of Vikas Rathore?</summary>
         <p>He is a 1st Rank Topper in Diploma in Electrical Engineering from JK Institute of Engineering (Bilaspur) and a 1st Rank Topper in ITI COPA (NCVT) from Odisha. He also holds a CITS qualification in CSA from NSTI (R), Hyderabad, and is certified by NIELIT Hyderabad in O Level, CCC+, ECC, and CCC.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What industrial training has Vikas Rathore completed?</h3>
-        <p>He completed a 1-year Diploma Apprenticeship in Electrical Engineering at NTPC Ltd. (2600 MW), Korba, Chhattisgarh, and 15 days of vocational training at the 132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Which programming languages and development skills does Vikas Rathore specialize in?</h3>
-        <p>He works across HTML, CSS, JavaScript, PHP, Python, C, C++, R Programming, and App Development, along with practical lab and typing instruction for ITI COPA trainees.</p>
-      </div>
+      </details>
+      <details class="faq-item">
+        <summary>What software and Android app projects has Vikas Rathore built?</summary>
+        <p>He designed and developed the <strong>ITI COPA Mobile Application</strong> (<a href="https://github.com/Vikasr9/NCVT-ITI-COPA" target="_blank" rel="noopener noreferrer">github.com/Vikasr9/NCVT-ITI-COPA</a>) and a <strong>Student Registration Form Web Application</strong> (<a href="https://github.com/Vikasr9/student-dbms" target="_blank" rel="noopener noreferrer">github.com/Vikasr9/student-dbms</a>) using HTML, CSS, JavaScript, PHP/MySQL (DBMS), and XAMPP.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How can I contact Vikas Rathore?</summary>
+        <p>You can reach Vikas Rathore directly via his official email at <a href="mailto:rvikas324@gmail.com">rvikas324@gmail.com</a> or use the contact form below.</p>
+      </details>
     </section>
 
-    <section>
-      <h2>Official and Professional Links</h2>
-      <div class="links">
-        <a class="button"
-           href="https://cgiti.cg.gov.in/iti/torla/faculty"
-           target="_blank" rel="noopener noreferrer">
-          Official ITI Faculty Page
-        </a>
-        <a class="button"
-           href="https://github.com/Vikasr9"
-           target="_blank" rel="noopener noreferrer">
-          GitHub Profile
-        </a>
-        <a class="button insta-btn"
-           href="https://www.instagram.com/vikasr_9/"
-           target="_blank" rel="noopener noreferrer">
-          Instagram (@vikasr_9)
-        </a>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-header">
+        <div>
+          <h2>Get in Touch</h2>
+          <p>Connect for academic inquiries, technical training, or Android &amp; web app development</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div>
+            <div class="contact-detail">
+              <div class="contact-label">Official Email</div>
+              <div class="contact-value"><a href="mailto:rvikas324@gmail.com">rvikas324@gmail.com</a></div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-label">Designation</div>
+              <div class="contact-value">Training Officer – COPA</div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-label">Institution &amp; Location</div>
+              <div class="contact-value">Government ITI Torla, Raipur, Chhattisgarh, India</div>
+            </div>
+          </div>
+          <div>
+            <div class="contact-label">Official Profiles</div>
+            <div class="social-row">
+              <a class="social-btn" href="https://cgiti.cg.gov.in/iti/torla/faculty" target="_blank" rel="noopener noreferrer">ITI Faculty</a>
+              <a class="social-btn" href="https://github.com/Vikasr9" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="social-btn social-insta" href="https://www.instagram.com/vikasr_9/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="sendEmail(event)">
+          <input type="text" id="senderName" placeholder="Your Full Name" required>
+          <input type="email" id="senderEmail" placeholder="Your Email Address" required>
+          <input type="text" id="emailSubject" placeholder="Subject (e.g., Training / App Development / Query)" required>
+          <textarea id="emailMessage" rows="4" placeholder="Write your message here..." required></textarea>
+          <button type="submit" class="submit-btn">Send Message to Vikas Rathore</button>
+        </form>
       </div>
     </section>
   </main>
 
+  <!-- Lightbox Modal -->
   <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-    <img id="lightbox-img" src="" alt="Full View">
+    <img id="lightbox-img" src="" alt="Full Screen View">
   </div>
 
   <footer>
-    © <span id="year">2026</span> Vikas Rathore | Government ITI Torla, Raipur
+    © <span id="year">2026</span> Vikas Rathore • Training Officer (COPA), Government ITI Torla, Raipur • <a href="mailto:rvikas324@gmail.com">rvikas324@gmail.com</a>
   </footer>
 
   <script>
@@ -405,6 +1187,15 @@
     function openLightbox(src) {
       document.getElementById("lightbox-img").src = src;
       document.getElementById("lightbox").style.display = "flex";
+    }
+    function sendEmail(e) {
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById("senderName").value);
+      const email = encodeURIComponent(document.getElementById("senderEmail").value);
+      const subject = encodeURIComponent(document.getElementById("emailSubject").value);
+      const message = encodeURIComponent(document.getElementById("emailMessage").value);
+      const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+      window.location.href = `mailto:rvikas324@gmail.com?subject=${subject}&body=${body}`;
     }
   </script>
 </body>
