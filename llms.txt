@@ -1,18 +1,24 @@
 # Vikas Rathore - Training Officer (COPA), Government ITI Torla, Raipur
 
 ## Summary
-Vikas Rathore is a Training Officer for the COPA (Computer Operator and Programming Assistant) trade at Government ITI Torla, Raipur, Chhattisgarh, India.
+Vikas Rathore is a Training Officer for the COPA (Computer Operator and Programming Assistant) trade at Government ITI Torla, Raipur, Chhattisgarh, India. He is a 1st Rank Topper in both Diploma in Electrical Engineering and ITI COPA (NCVT).
 
-## Education & Qualifications
+## Education & Academic Achievements
 - CITS (Craft Instructor Training Scheme) in CSA (Computer Software Applications) from NSTI (R), Hyderabad
-- ITI in COPA (NCVT) from Odisha
-- Diploma in Electrical Engineering from JK Institute of Engineering, Bilaspur, Chhattisgarh
+- ITI in COPA (NCVT) from Odisha — 1st Rank Topper
+- Diploma in Electrical Engineering from JK Institute of Engineering, Bilaspur, Chhattisgarh — 1st Rank Topper
 - NIELIT Hyderabad Certifications: O Level, CCC+, ECC, and CCC
 
 ## Industrial Experience
-- 1 Year Diploma Apprenticeship Trainee (Electrical) at NTPC Ltd. (2600 MW), Korba, Chhattisgarh
+- 1 Year Diploma Apprenticeship Trainee (Electrical) at National Thermal Power Corporation Ltd. (NTPC – 2600 MW), Korba, Chhattisgarh
 - 15 Days Vocational Training at 132 KV Substation, SECL (Coal India Ltd.), Gevra, Korba, Chhattisgarh
 
 ## Technical & Programming Skills
-- Languages & Development: HTML, CSS, JavaScript, PHP, Python, C, C++, R Programming, App Development
-- Official Links: https://vikasr9.github.io/ | https://github.com/Vikasr9 | https://cgiti.cg.gov.in/iti/torla/faculty
+- Programming Languages & Development: HTML5, CSS3, JavaScript, PHP, Python, C, C++, R Programming, Mobile & Web App Development
+- Vocational Training: Computer Fundamentals, MS Office, Digital Skills, and Hindi/English Typing
+
+## Official & Social Links
+- Portfolio Website: https://vikasr9.github.io/
+- Official ITI Faculty Page: https://cgiti.cg.gov.in/iti/torla/faculty
+- GitHub Profile: https://github.com/Vikasr9
+- Instagram Profile: https://www.instagram.com/vikasr_9/
